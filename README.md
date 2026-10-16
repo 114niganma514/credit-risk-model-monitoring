@@ -142,7 +142,7 @@ an alert when thresholds are exceeded:
   ```
 - Scheduling (Windows Task Scheduler, daily 09:00 check):
   ```powershell
-  schtasks /Create /TN "ModelMonitorAlert" /TR "python D:\Users\jiayi\credit-risk-model-monitoring\scripts\08_alert_notification.py --channel all" /SC DAILY /ST 09:00
+  schtasks /Create /TN "ModelMonitorAlert" /TR "python <repo-path>\scripts\08_alert_notification.py --channel all" /SC DAILY /ST 09:00
   ```
 - Output: `output/alert_log.json` (alert history)
 
