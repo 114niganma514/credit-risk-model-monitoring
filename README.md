@@ -1,5 +1,7 @@
 # Credit Risk Model Monitoring & Drift Detection System
 
+![Project cover](.github/cover.png)
+
 > Model Lifecycle Management (MLOps) - demonstrating what happens **after a model
 > goes live**. This project monitors a deployed credit-default model with
 > PSI / KL divergence, rolling-window trends, concept-drift detection, automatic
