@@ -1,14 +1,14 @@
 # Credit Risk Model Monitoring & Drift Detection System
 
 > Model Lifecycle Management (MLOps) - demonstrating what happens **after a model
-> goes live**. This resume project monitors a deployed credit-default model with
+> goes live**. This project monitors a deployed credit-default model with
 > PSI / KL divergence, rolling-window trends, concept-drift detection, automatic
 > alerts and SHAP attribution, building a complete
 > **Monitor -> Alert -> Attribute -> Retrain** loop.
 
 ---
 
-## 0. Resume Summary
+## 0. Project Summary
 
 | Item | Detail |
 |---|---|
@@ -66,6 +66,9 @@ credit-risk-model-monitoring/
 ```
 
 ## 3. Quick Start
+
+**Data:** download `cs-training.csv` from Kaggle [Give Me Some Credit](https://www.kaggle.com/c/GiveMeSomeCredit/data)
+and save it as `data/raw/cs-training.csv` (data is not committed to the repo).
 
 ```bash
 # Option A: one-click run (Windows: double-click run_all.bat, or from cmd)
@@ -249,7 +252,7 @@ Fixed: AUC is insensitive to a uniform score shift; to detect concept drift
        default given the same features), and also monitor P(Y) (default rate).
 ```
 
-## 8. How to Extend (resume bonus points)
+## 8. How to Extend
 
 1. **Rolling monitoring -> alerts**: feed the 06/07 results straight into 08;
    thresholds trigger alerts (loop already closed).
@@ -262,7 +265,7 @@ Fixed: AUC is insensitive to a uniform score shift; to detect concept drift
 5. **Add multi-model attribution**: run SHAP on XGBoost too, comparing how
    different models react to drift.
 
-## 9. Demo Results (run on this machine)
+## 9. Demo Results
 
 | Layer | Metric | Early post-launch | Drifted (W8) |
 |---|---|---|---|
