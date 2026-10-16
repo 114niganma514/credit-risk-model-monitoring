@@ -1,0 +1,7 @@
+# Data (Give Me Some Credit cs-training.csv + generated windows) - regenerate with scripts 01/03/06
+data/
+# Local secrets - if you fill Feishu webhook / SMTP password, keep a local copy instead
+config/alert_config.local.json
+__pycache__/
+*.pyc
+.venv/

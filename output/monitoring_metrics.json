@@ -1,0 +1,269 @@
+{
+  "feature_report": [
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "RevolvingUtilizationOfUnsecuredLines",
+      "PSI": 0.0014,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000719,
+      "Ref_Median": 0.1545,
+      "Cur_Median": 0.1458,
+      "Ref_Mean": 0.3202,
+      "Cur_Mean": 0.3153
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "age",
+      "PSI": 0.000871,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000287,
+      "Ref_Median": 52.0,
+      "Cur_Median": 52.0,
+      "Ref_Mean": 52.2631,
+      "Cur_Mean": 52.5157
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "NumberOfTime30-59DaysPastDueNotWorse",
+      "PSI": 0.001435,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000744,
+      "Ref_Median": 0.0,
+      "Cur_Median": 0.0,
+      "Ref_Mean": 0.2448,
+      "Cur_Mean": 0.2539
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "DebtRatio",
+      "PSI": 0.000807,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000386,
+      "Ref_Median": 0.3673,
+      "Cur_Median": 0.364,
+      "Ref_Mean": 320.5564,
+      "Cur_Mean": 302.5786
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "MonthlyIncome",
+      "PSI": 0.000207,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000112,
+      "Ref_Median": 5400.0,
+      "Cur_Median": 5400.0,
+      "Ref_Mean": 6144.7755,
+      "Cur_Mean": 6159.1395
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "NumberOfOpenCreditLinesAndLoans",
+      "PSI": 0.001159,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.00058,
+      "Ref_Median": 8.0,
+      "Cur_Median": 8.0,
+      "Ref_Mean": 8.4517,
+      "Cur_Mean": 8.495
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "NumberOfTimes90DaysLate",
+      "PSI": 0.001208,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000533,
+      "Ref_Median": 0.0,
+      "Cur_Median": 0.0,
+      "Ref_Mean": 0.091,
+      "Cur_Mean": 0.0889
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "NumberRealEstateLoansOrLines",
+      "PSI": 0.001486,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000773,
+      "Ref_Median": 1.0,
+      "Cur_Median": 1.0,
+      "Ref_Mean": 1.0208,
+      "Cur_Mean": 1.0053
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "NumberOfTime60-89DaysPastDueNotWorse",
+      "PSI": 0.000722,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000361,
+      "Ref_Median": 0.0,
+      "Cur_Median": 0.0,
+      "Ref_Mean": 0.0642,
+      "Cur_Mean": 0.0695
+    },
+    {
+      "Comparison": "ref_vs_initial",
+      "Feature": "NumberOfDependents",
+      "PSI": 0.000688,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000318,
+      "Ref_Median": 0.0,
+      "Cur_Median": 0.0,
+      "Ref_Mean": 0.7385,
+      "Cur_Mean": 0.7304
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "RevolvingUtilizationOfUnsecuredLines",
+      "PSI": 2.594309,
+      "PSI_Level": "SevereDrift",
+      "KL_Divergence": 2.625471,
+      "Ref_Median": 0.1545,
+      "Cur_Median": 0.3208,
+      "Ref_Mean": 0.3202,
+      "Cur_Mean": 0.5171
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "age",
+      "PSI": 0.049743,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.025825,
+      "Ref_Median": 52.0,
+      "Cur_Median": 55.0,
+      "Ref_Mean": 52.2631,
+      "Cur_Mean": 55.3489
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "NumberOfTime30-59DaysPastDueNotWorse",
+      "PSI": 0.000972,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000448,
+      "Ref_Median": 0.0,
+      "Cur_Median": 0.0,
+      "Ref_Mean": 0.2448,
+      "Cur_Mean": 0.2439
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "DebtRatio",
+      "PSI": 0.000408,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000182,
+      "Ref_Median": 0.3673,
+      "Cur_Median": 0.3684,
+      "Ref_Mean": 320.5564,
+      "Cur_Mean": 318.5311
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "MonthlyIncome",
+      "PSI": 1.053285,
+      "PSI_Level": "SevereDrift",
+      "KL_Divergence": 0.615927,
+      "Ref_Median": 5400.0,
+      "Cur_Median": 3238.2983,
+      "Ref_Mean": 6144.7755,
+      "Cur_Mean": 3682.2002
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "NumberOfOpenCreditLinesAndLoans",
+      "PSI": 0.000519,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.00026,
+      "Ref_Median": 8.0,
+      "Cur_Median": 8.0,
+      "Ref_Mean": 8.4517,
+      "Cur_Mean": 8.4555
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "NumberOfTimes90DaysLate",
+      "PSI": 16.13792,
+      "PSI_Level": "SevereDrift",
+      "KL_Divergence": 12.863903,
+      "Ref_Median": 0.0,
+      "Cur_Median": 2.0,
+      "Ref_Mean": 0.091,
+      "Cur_Mean": 2.0867
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "NumberRealEstateLoansOrLines",
+      "PSI": 0.001986,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.0013,
+      "Ref_Median": 1.0,
+      "Cur_Median": 1.0,
+      "Ref_Mean": 1.0208,
+      "Cur_Mean": 1.0202
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "NumberOfTime60-89DaysPastDueNotWorse",
+      "PSI": 0.000761,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000492,
+      "Ref_Median": 0.0,
+      "Cur_Median": 0.0,
+      "Ref_Mean": 0.0642,
+      "Cur_Mean": 0.0654
+    },
+    {
+      "Comparison": "ref_vs_drifted",
+      "Feature": "NumberOfDependents",
+      "PSI": 0.000846,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000421,
+      "Ref_Median": 0.0,
+      "Cur_Median": 0.0,
+      "Ref_Mean": 0.7385,
+      "Cur_Mean": 0.7512
+    }
+  ],
+  "score_report": [
+    {
+      "Comparison": "current_initial",
+      "Ref_Size": 35936,
+      "Cur_Size": 14973,
+      "PSI": 0.001624,
+      "PSI_Level": "NoDrift",
+      "KL_Divergence": 0.000822,
+      "Ref_MeanScore": 0.3408,
+      "Cur_MeanScore": 0.3393
+    },
+    {
+      "Comparison": "current_drifted",
+      "Ref_Size": 35936,
+      "Cur_Size": 14974,
+      "PSI": 4.633091,
+      "PSI_Level": "SevereDrift",
+      "KL_Divergence": 3.208564,
+      "Ref_MeanScore": 0.3408,
+      "Cur_MeanScore": 0.7666
+    }
+  ],
+  "performance_report": [
+    {
+      "Dataset": "ref_val",
+      "Size": 35936,
+      "BadRate": 0.066,
+      "AUC": 0.856,
+      "MeanScoreP_bad": 0.3408
+    },
+    {
+      "Dataset": "current_initial",
+      "Size": 14973,
+      "BadRate": 0.0691,
+      "AUC": 0.8548,
+      "MeanScoreP_bad": 0.3393
+    },
+    {
+      "Dataset": "current_drifted",
+      "Size": 14974,
+      "BadRate": 0.0652,
+      "AUC": 0.8249,
+      "MeanScoreP_bad": 0.7666
+    }
+  ]
+}

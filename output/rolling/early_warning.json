@@ -1,0 +1,7 @@
+{
+  "first_moderate_window": "W5",
+  "first_moderate_date": "2020-04-30",
+  "first_severe_window": "W5",
+  "first_severe_date": "2020-04-30",
+  "conclusion": "Drift first triggered a moderate alert (PSI>=0.10) in window W5 and escalated to a severe alert (PSI>=0.25) in window W5 - exposing the risk earlier than fixed snapshot monitoring."
+}

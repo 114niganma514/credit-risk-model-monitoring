@@ -1,0 +1,12 @@
+{
+  "score_psi_drifted": 4.633091,
+  "score_psi_level": "SevereDrift",
+  "severe_features": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "MonthlyIncome",
+    "NumberOfTimes90DaysLate"
+  ],
+  "moderate_features": [],
+  "auc_drop": 0.0311,
+  "action": "Trigger model retraining review"
+}

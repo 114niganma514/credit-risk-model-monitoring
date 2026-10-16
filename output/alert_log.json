@@ -1,0 +1,62 @@
+[
+  {
+    "time": "2026-09-07 17:01:52",
+    "channel": "simulate",
+    "psi": 8.553801,
+    "psi_level": "SevereDrift",
+    "auc_drop": 0.2406,
+    "severe_features": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "MonthlyIncome",
+      "NumberOfTimes90DaysLate"
+    ]
+  },
+  {
+    "time": "2026-09-07 17:19:53",
+    "channel": "simulate",
+    "psi": 8.553801,
+    "psi_level": "SevereDrift",
+    "auc_drop": 0.2406,
+    "severe_features": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "MonthlyIncome",
+      "NumberOfTimes90DaysLate"
+    ]
+  },
+  {
+    "time": "2026-09-07 17:21:44",
+    "channel": "simulate",
+    "psi": 8.553801,
+    "psi_level": "SevereDrift",
+    "auc_drop": 0.2406,
+    "severe_features": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "MonthlyIncome",
+      "NumberOfTimes90DaysLate"
+    ]
+  },
+  {
+    "time": "2026-09-07 17:38:53",
+    "channel": "simulate",
+    "psi": 8.553801,
+    "psi_level": "SevereDrift",
+    "auc_drop": 0.2406,
+    "severe_features": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "MonthlyIncome",
+      "NumberOfTimes90DaysLate"
+    ]
+  },
+  {
+    "time": "2026-09-08 12:17:05",
+    "channel": "simulate",
+    "psi": 8.553801,
+    "psi_level": "SevereDrift",
+    "auc_drop": 0.2406,
+    "severe_features": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "MonthlyIncome",
+      "NumberOfTimes90DaysLate"
+    ]
+  }
+]

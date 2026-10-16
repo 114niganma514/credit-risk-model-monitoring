@@ -1,0 +1,4 @@
+﻿Dataset,Size,BadRate,AUC,MeanScoreP_bad
+ref_val,35936,0.066,0.856,0.3408
+current_initial,14973,0.0691,0.8548,0.3393
+current_drifted,14974,0.0652,0.8249,0.7666

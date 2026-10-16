@@ -1,0 +1,8 @@
+{
+  "top_priority_features": [
+    "NumberOfTimes90DaysLate",
+    "RevolvingUtilizationOfUnsecuredLines",
+    "MonthlyIncome"
+  ],
+  "conclusion": "Combining feature drift (PSI) with model sensitivity (SHAP), the top-priority features to investigate are: NumberOfTimes90DaysLate, RevolvingUtilizationOfUnsecuredLines, MonthlyIncome - they both drift significantly and have the largest influence on the model output, making them the main attribution channels for model failure during the drifted period."
+}

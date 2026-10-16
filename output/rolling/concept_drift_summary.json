@@ -1,0 +1,13 @@
+{
+  "baseline_auc": 0.856,
+  "worst_window": "W8",
+  "worst_auc": 0.6154,
+  "worst_drop": 0.2406,
+  "severe_windows": [
+    "W5",
+    "W6",
+    "W7",
+    "W8"
+  ],
+  "conclusion": "AUC hit its lowest value 0.6154 in W8, a drop of 0.2406 vs baseline - combined with the feature-distribution drift (rising PSI) this is concept / performance drift; a model retraining review is recommended."
+}

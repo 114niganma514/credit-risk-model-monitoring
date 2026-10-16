@@ -1,0 +1,11 @@
+﻿Feature,Ref_MeanAbsSHAP,Drifted_MeanAbsSHAP,ImportanceChange,FeaturePSI,DriftImpact,Priority
+NumberOfTimes90DaysLate,0.042683,0.57614,12.4982,16.209069,1.0,HighPriority
+RevolvingUtilizationOfUnsecuredLines,0.192483,0.1406,-0.2695,2.581911,0.2017,HighPriority
+MonthlyIncome,0.000375,0.002065,4.5094,1.906069,0.0606,HighPriority
+NumberOfTime30-59DaysPastDueNotWorse,0.056073,0.033483,-0.4029,0.000728,0.0291,Normal
+NumberOfTime60-89DaysPastDueNotWorse,0.027968,0.021656,-0.2257,0.00047,0.0188,Normal
+age,0.030687,0.01511,-0.5076,0.045334,0.0145,Normal
+DebtRatio,0.001517,0.005147,2.3925,0.000732,0.0045,Normal
+NumberRealEstateLoansOrLines,0.005682,0.00268,-0.5284,0.001846,0.0024,Normal
+NumberOfOpenCreditLinesAndLoans,0.004737,0.002225,-0.5303,0.001537,0.002,Normal
+NumberOfDependents,0.0,0.0,0.0,0.000693,0.0,Normal

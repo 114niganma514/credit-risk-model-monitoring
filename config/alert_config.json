@@ -1,0 +1,25 @@
+{
+  "_note": "Model monitoring alert configuration. Fill in real values and run 08_alert_notification.py --channel all to actually send. When left blank, use the default simulate mode (--simulate).",
+  "enabled_channels": ["simulate"],
+  "feishu": {
+    "_note": "Feishu custom bot Webhook: group settings -> group bot -> add custom bot -> copy Webhook URL",
+    "webhook_url": ""
+  },
+  "email": {
+    "_note": "SMTP sender config (QQ/163/Gmail all require enabling SMTP and using an authorization code, not the login password)",
+    "smtp_host": "",
+    "smtp_port": 465,
+    "use_ssl": true,
+    "username": "",
+    "password": "",
+    "from_addr": "",
+    "to_addrs": []
+  },
+  "alert_rules": {
+    "_note": "Trigger thresholds (consistent with the industry-standard values in the README; tune to your business)",
+    "psi_moderate": 0.10,
+    "psi_severe": 0.25,
+    "auc_drop_severe": 0.03,
+    "severe_feature_count": 1
+  }
+}

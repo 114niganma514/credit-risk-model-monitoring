@@ -1,0 +1,4 @@
+﻿Model,AUC,KS
+Logistic Regression,0.856,0.5547
+LightGBM,0.853,0.5496
+XGBoost,0.8633,0.5683
